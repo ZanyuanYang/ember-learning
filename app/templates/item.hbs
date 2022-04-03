@@ -1,2 +1,16 @@
-<h5>item works{{this.model}}</h5>
-{{outlet}}
+<GeneralContainer>
+    <div class="product item-details-page">
+        <Product::Image @src={{this.productImage}} />
+        <Product::Details @color={{this.color}} @onChangeColor={{this.onChangeColor}} />
+    </div>
+    <h5 class="mt-5">Features</h5>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, modi.</li>
+    </ul>
+</GeneralContainer>

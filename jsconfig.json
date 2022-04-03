@@ -1,4 +1,7 @@
 {
+    "compilerOptions": {
+        "experimentalDecorators": true
+    },
     "conpilerOptions":{
         "target": "es2015",
         "experimentalDecorators": true
